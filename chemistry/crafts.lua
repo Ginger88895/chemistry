@@ -12,7 +12,7 @@ chemistry:register_reaction({"default:stone_with_coal",
 })
 
 --moreores
-chemistry:register_reaction({"moreores:gold_block",
+chemistry:register_reaction({"default:goldblock",
   {"chemistry:Au"},
 })
 
@@ -20,7 +20,7 @@ chemistry:register_reaction({"moreores:silver_block",
   {"chemistry:Ag"},
 })
 
-chemistry:register_reaction({"moreores:copper_block",
+chemistry:register_reaction({"default:copperblock",
   {"chemistry:Cu"},
 })
 
@@ -33,6 +33,6 @@ chemistry:register_reaction({"default:stone_with_iron",
 })
 
 --diamonds
-chemistry:register_reaction({"diamonds:block",
+chemistry:register_reaction({"default:diamondblock",
   {"chemistry:C","chemistry:C","chemistry:C","chemistry:C"},
 })
