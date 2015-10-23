@@ -152,7 +152,7 @@ minetest.register_node("chemistry:extractor", {
         
         minetest.env:remove_node({x=pos.x-1, y=pos.y, z=pos.z})
         for i,str in ipairs(chemistry.reactions[reaction][2]) do
-              minetest.env:add_node({x=pos.x+i-1, y=pos.y, z=pos.z},{name=str})
+              minetest.add_node({x=pos.x+i, y=pos.y, z=pos.z},{name=str})
         end
         
         return
